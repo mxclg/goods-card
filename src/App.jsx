@@ -41,15 +41,21 @@ function App() {
             This software is designed to work with any site
           </span>
         </div>
-        <div className="absolute top-[142px] left-[15px] flex items-center gap-[8px]">
-          <div className="w-14 h-6 bg-slate-200 rounded-xl flex items-center justify-center gap-[4px] px-[6px]">
-            <span className="text-zinc-800 text-sm font-semibold leading-none">
-              4.6
+        <div className="absolute top-[142px] left-[15px] w-[335px] flex items-center justify-between">
+          <div className="flex items-center gap-[8px]">
+            <div className="w-14 h-6 bg-slate-200 rounded-xl flex items-center justify-center gap-[4px] px-[6px]">
+              <span className="text-zinc-800 text-sm font-semibold leading-none">
+                4.6
+              </span>
+              <img src={StarIcon} alt="Star" className="w-[14px] h-[14px]" />
+            </div>
+            <span className="text-gray-500 text-sm font-normal leading-normal">
+              456 Reviews
             </span>
-            <img src={StarIcon} alt="Star" className="w-[14px] h-[14px]" />
           </div>
-          <div className="text-gray-500 text-sm font-normal leading-normal">
-            456 Reviews
+
+          <div className="text-cyan-600 text-xl font-semibold leading-loose">
+            Free
           </div>
         </div>
       </div>
