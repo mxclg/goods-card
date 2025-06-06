@@ -2,6 +2,7 @@ import logoDark from "./assets/logo-dark.svg";
 import ArrowRight from "./assets/arrow-right.svg";
 import logoBright from "./assets/logo-bright.svg";
 import CircleCheck from "./assets/circle-check.svg";
+import StarIcon from "./assets/star.svg";
 
 function App() {
   return (
@@ -39,6 +40,17 @@ function App() {
           <span className="text-zinc-800 text-sm font-normal leading-normal">
             This software is designed to work with any site
           </span>
+        </div>
+        <div className="absolute top-[142px] left-[15px] flex items-center gap-[8px]">
+          <div className="w-14 h-6 bg-slate-200 rounded-xl flex items-center justify-center gap-[4px] px-[6px]">
+            <span className="text-zinc-800 text-sm font-semibold leading-none">
+              4.6
+            </span>
+            <img src={StarIcon} alt="Star" className="w-[14px] h-[14px]" />
+          </div>
+          <div className="text-gray-500 text-sm font-normal leading-normal">
+            456 Reviews
+          </div>
         </div>
       </div>
     </div>
