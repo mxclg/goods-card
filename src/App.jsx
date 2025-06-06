@@ -1,5 +1,7 @@
 import logoDark from "./assets/logo-dark.svg";
 import ArrowRight from "./assets/arrow-right.svg";
+import logoBright from "./assets/logo-bright.svg";
+import CircleCheck from "./assets/circle-check.svg";
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
         <div className="absolute top-[20px] left-[15px] w-[60px] h-[60px] bg-white rounded-[5px] overflow-hidden">
           <img
             src={logoDark}
-            alt="Product logo"
+            alt="Dark logo"
             className="w-full h-full object-contain"
           />
         </div>
@@ -17,6 +19,16 @@ function App() {
             2Captcha solver
           </span>
           <img src={ArrowRight} alt="Arrow" className="w-5 h-5 mt-[2px]" />
+        </div>
+        <div className="absolute top-[63px] left-[90px] flex items-center gap-[8px] px-[12px] h-6 bg-[#00A1B3] rounded-2xl">
+          <img
+            src={logoBright}
+            alt="Bright logo"
+            className="w-3 h-4 object-contain"
+          />
+          <span className="text-white text-sm font-normal">
+            Official software
+          </span>
         </div>
       </div>
     </div>
