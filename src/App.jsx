@@ -30,6 +30,16 @@ function App() {
             Official software
           </span>
         </div>
+        <div className="absolute top-[107px] left-[15px] flex items-center gap-[8px]">
+          <img
+            src={CircleCheck}
+            alt="Check icon"
+            className="w-4 h-4 object-contain"
+          />
+          <span className="text-zinc-800 text-sm font-normal leading-normal">
+            This software is designed to work with any site
+          </span>
+        </div>
       </div>
     </div>
   );
