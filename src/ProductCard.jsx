@@ -8,6 +8,7 @@ function ProductCard({
   title,
   rating,
   reviews,
+  price,
   isOfficial = true,
   isUniversal = true,
 }) {
@@ -66,7 +67,7 @@ function ProductCard({
           </span>
         </div>
         <div className="text-cyan-600 text-xl font-semibold leading-loose">
-          Free
+          {price}
         </div>
       </div>
     </div>
