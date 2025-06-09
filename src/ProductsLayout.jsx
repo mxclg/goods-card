@@ -1,5 +1,7 @@
 import ProductCard from "./ProductCard";
 import twoCaptchaLogo from "./assets/2Captcha-logo.svg";
+import puppeteerLogo from "./assets/puppeteer-logo.svg";
+import twoCaptchaJavascript from "./assets/2Captcha-js-logo.svg";
 
 function ProductsLayout() {
   return (
@@ -14,12 +16,22 @@ function ProductsLayout() {
         isUniversal={true}
       />
       <ProductCard
-        logo={twoCaptchaLogo}
-        title="2Captcha solver"
+        logo={puppeteerLogo}
+        title={`Puppeteer plugin to solve reCAPTCHAs
+                automatically`}
         rating="4.6"
         reviews={456}
-        price="ADD PRICE"
+        price="$67"
         isOfficial={true}
+        isUniversal={true}
+      />
+      <ProductCard
+        logo={twoCaptchaJavascript}
+        title={`2captcha-javascript`}
+        rating="4.6"
+        reviews={456}
+        price="$67"
+        isOfficial={false}
         isUniversal={true}
       />
     </div>
