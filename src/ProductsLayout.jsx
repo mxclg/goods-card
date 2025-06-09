@@ -1,4 +1,5 @@
 import ProductCard from "./ProductCard";
+import LoadMoreButton from "./LoadMoreBtn";
 import twoCaptchaLogo from "./assets/2Captcha-logo.svg";
 import puppeteerLogo from "./assets/puppeteer-logo.svg";
 import twoCaptchaJavascript from "./assets/2Captcha-js-logo.svg";
@@ -34,6 +35,7 @@ function ProductsLayout() {
         isOfficial={false}
         isUniversal={true}
       />
+      <LoadMoreButton />
     </div>
   );
 }
